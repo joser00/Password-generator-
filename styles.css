@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Carter+One&family=Courgette&family=Geostar&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@400;600;700&family=Kalam:wght@300;400;700&family=Karla:wght@200;600;800&family=Lilita+One&family=Luckiest+Guy&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Mogra&family=Orbitron:wght@400;600;900&family=Pacifico&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100;0,400;0,600;1,500;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: rgb(38, 38, 38);
+    font-family: Karla;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-element {
+    width: 380px;
+    background-color: #1F2937;
+    box-shadow: 0 0 1px black;
+    padding: 3.5rem;
+    
+}
+#paragraph-1 {
+    color:#FFF ;
+    margin-bottom: 0px;
+}
+#paragraph-2 {
+    color:#4ADF86 ;
+    text-shadow: 0 0 4px black;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#advice {
+    color: #FFF;
+    font-size: 1.15rem;
+    text-shadow: 0 0 4px black;
+    margin: 0rem 0 2rem 0;
+}
+.btn {
+    border: transparent;
+    border-radius: 3px;
+    background-color: #10B981;
+    color: #FFF;
+    padding: 10px 25px 10px 25px;
+    box-shadow: 0 0 4px black;
+    margin-top: 1rem;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn:active {
+    background-color: #273549;
+    border: 1px solid #10B981;
+}
+#divisor {
+    color: #434952a9;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.password-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#password-1{
+    text-align: center;
+    background-color: #273549;
+    color: #55F991;
+    padding: 8px 25px 8px 25px;
+    width: 211px;
+    max-width: 211px;
+    min-height: 40px;
+    margin-right:10px ;
+    border-radius: 3px;
+    box-sizing: border-box;
+   
+} 
+
+#password-2 {
+    text-align: center;
+    background-color: #273549;
+    color: #55F991;
+    padding: 8px 25px 8px 25px;
+    width: 211px;
+    max-width: 211px;
+    margin-left:10px ;
+    border-radius: 3px;
+    min-height: 40px;
+    box-sizing: border-box;
+   
+}
+#selector-length {
+    margin-left: 30px;
+    background-color: #273549;
+    width: 110px;
+    border: none;
+    border-radius: 3px;
+    text-indent: 5px;
+    color: white;
+    font-size: 13px;
+    line-height: 35px;
+}
+#selector-length::placeholder {
+    color: #FFF;
+}
+#on-off {
+    background-color: #55F991;
+    border: none;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    color: #273549;
+    font-size: 18px;
+}
+#on-off:hover {
+    cursor: pointer;
+    background-color: #273549;
+    color: #55F991;
+}
